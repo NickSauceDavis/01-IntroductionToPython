@@ -1,3 +1,4 @@
+import math
 
 answer = 2 ** 5
 print(answer * 100)
@@ -20,7 +21,7 @@ print(answer * 100)
 ###############################################################################
 
 ###############################################################################
-# TODO: 2.
+# DONE: 2.
 #   Immediately below this _TODO_, write code that:
 #     - Computes 77 plus the cosine of 2.75.
 #         HINT: You will need to import the   math  module (library).
@@ -28,7 +29,9 @@ print(answer * 100)
 #     - Prints the square root of that computed value.
 #   Run your code (fix errors as needed), then change the above _TODO_ to DONE.
 ###############################################################################
-
+import math
+value1 = 77 + math.cos(2.75)
+print(math.sqrt(value1))
 ###############################################################################
 # TODO: 3.
 #   Immediately below this _TODO_, write code that computes and prints:
@@ -36,7 +39,7 @@ print(answer * 100)
 #   Use as few or as many intermediate names as you feel appropriate.
 #   Run your code (fix errors as needed), then change the above _TODO_ to DONE.
 ###############################################################################
-
+value2 =
 
 ###############################################################################
 # TODO: 4.
